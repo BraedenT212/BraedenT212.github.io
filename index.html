@@ -9,6 +9,28 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="pipeline" aria-label="My path">
+    <p class="pipeline-caption">MY PATH <span>IN MOTION</span></p>
+    <div class="pipeline-track">
+      <svg class="pipe-art" viewBox="0 0 220 460" fill="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="pipe-metal" x1="30" y1="0" x2="180" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#122e40"/><stop offset=".45" stop-color="#517582"/><stop offset=".65" stop-color="#244b5c"/><stop offset="1" stop-color="#112c3c"/></linearGradient>
+          <linearGradient id="pipe-water" x1="0" y1="430" x2="0" y2="25" gradientUnits="userSpaceOnUse"><stop stop-color="#287579"/><stop offset="1" stop-color="#65e4db"/></linearGradient>
+        </defs>
+        <path class="pipe-shadow" d="M58 425V350Q58 315 94 315H130Q166 315 166 277V214Q166 176 128 176H94Q58 176 58 138V35"/>
+        <path class="pipe-shell" d="M58 425V350Q58 315 94 315H130Q166 315 166 277V214Q166 176 128 176H94Q58 176 58 138V35"/>
+        <path class="pipe-core" d="M58 425V350Q58 315 94 315H130Q166 315 166 277V214Q166 176 128 176H94Q58 176 58 138V35"/>
+        <path class="pipe-flow" d="M58 425V350Q58 315 94 315H130Q166 315 166 277V214Q166 176 128 176H94Q58 176 58 138V35"/>
+        <g class="pipe-joints"><rect x="37" y="381" width="42" height="12" rx="3"/><rect x="145" y="241" width="42" height="12" rx="3"/><rect x="37" y="94" width="42" height="12" rx="3"/></g>
+      </svg>
+      <button class="pipeline-stop stop-one is-active" type="button" data-stage="0" aria-pressed="true"><span class="stop-dot">01</span><span class="stop-label">Customer<br>experience</span></button>
+      <button class="pipeline-stop stop-two" type="button" data-stage="1" aria-pressed="false"><span class="stop-dot">02</span><span class="stop-label">Sales &amp;<br>leadership</span></button>
+      <button class="pipeline-stop stop-three" type="button" data-stage="2" aria-pressed="false"><span class="stop-dot">03</span><span class="stop-label">CRM &amp;<br>analytics</span></button>
+      <button class="pipeline-stop stop-four" type="button" data-stage="3" aria-pressed="false"><span class="stop-dot">04</span><span class="stop-label">Next<br>opportunity</span></button>
+    </div>
+    <p class="pipeline-detail" aria-live="polite">Learning to listen, solve problems, and deliver a great customer experience.</p>
+    <p class="pipeline-hint">Select a milestone to explore</p>
+  </aside>
   <header class="site-header wrap">
     <span class="header-note">CHICO STATE · CLASS OF 2028</span>
   </header>
@@ -76,5 +98,6 @@
     </div>
   </main>
   <footer class="site-footer wrap"><span>© 2026 Braeden Toohey</span></footer>
+  <script src="pipeline.js"></script>
 </body>
 </html>
